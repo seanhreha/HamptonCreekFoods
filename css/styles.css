@@ -1,0 +1,419 @@
+body {
+ color: #0f0f0f;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ -o-user-select: none;
+ user-select: none;
+}
+
+p {
+ -webkit-touch-callout: text;
+ -webkit-user-select: text;
+ -khtml-user-select: text;
+ -moz-user-select: text;
+ -ms-user-select: text;
+ -o-user-select: text;
+ user-select: text;
+}
+
+#header {
+ background-size: 100% 100%;
+ box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+ -moz-box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+ -webkit-box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+ margin: 0;
+ top: 0;
+ position: fixed;
+ background-color: #4b4c4b;
+ background-color: rgba(0, 0, 0, 0.65);
+ text-align: center;
+ z-index: 1000;
+ width: 100%;
+ height: 110px;
+}
+
+#header h1#logo a {
+ background: url(../img/hamptoncreekfoods-logo.png) no-repeat !important;
+ display: block;
+ height: 84px;
+ width: 67px;
+ text-indent: -9999px;
+ position: absolute;
+	left: 50%;
+	cursor: pointer;
+	margin: 0 0 0 -34px;	
+}
+
+#header .main-menu a {
+font-family: FranklinGothicLTCom-BkCm, "Arial Narrow", sans-serif;
+font-size: 14px;
+font-weight: 100;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #fff;
+float: right;
+display: block;
+text-align: left;
+margin: 40px 20px 0 0;
+padding-right: 24px;
+background: url(../img/home/contact-icon.png);
+background-repeat: no-repeat;
+background-position: right center;
+-webkit-filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.5));
+filter: url(1px-shadow.svg#drop-shadow);
+-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#000')";
+filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#000')";
+}
+
+#header > ul {
+	float: left;	
+	list-style: none;
+	margin: 40px 0 0 -15px;
+	width: 50%;
+}
+#header > ul li {
+	float: left;	
+	margin: 0;
+}
+
+#menu {
+ display: none;
+}
+
+.arrowdown {
+ background: url(../img/global/arrow-down.png);
+ background-repeat: no-repeat;
+ background-position: center bottom;
+ text-align: center;
+ position: absolute;
+ bottom: 0px;
+ left: 50%;
+ width: 160px;
+ height: 58px;
+ margin-left: -80px;
+ font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+ font-size: 20px;
+ font-weight: 200;
+ color: #fff;
+ text-transform: uppercase;
+ text-rendering: optimizeLegibility;
+ -webkit-font-smoothing: antialiased;
+ text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+ -moz-text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+ -webkit-text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+ cursor: pointer;
+}
+
+/* Panel Backgrounds */
+
+.panel1 {
+ background-color: #000;
+ background: url(../img/Just-Mayo-Panel1.jpg) no-repeat bottom center;
+ text-align: center;
+ position: relative;
+}
+
+.panel2 {
+ background-color: #000;
+ background: url(../img/JustMayoPage_Panel2.jpg) no-repeat center center;
+ text-align: center;
+}
+
+.panel2a {
+ background-color: #000;
+ background: url(../img/JustMayoPage_Panel3.jpg) no-repeat center center fixed;
+}
+
+.panel3 {
+ background-color: #000;
+ background: url(../img/JustMayoPage_Panel4.jpg) no-repeat center center;
+}
+
+.panel3a {
+ background-color: #000;
+ background: url(../img/JustMayoPage_Panel5.jpg) no-repeat center fixed;
+ height: 300px;
+}
+
+.panel4 {
+ background-color: #000;
+ background: url(../img/JustMayoPage_Panel6.png) repeat;
+}
+
+.panel5 {
+ background-color: #000;
+ background: url(../img/bg.jpg) no-repeat center;
+ text-align: center;
+ height: 239px;
+}
+
+.panel1, .panel2, .panel2a, .panel3, .panel3a, .panel5 {
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.panel {
+ box-shadow: none;
+ -moz-box-shadow: none;
+ -webkit-box-shadow: none;
+}
+
+.panel-content {
+ margin-bottom: 100px;
+}
+
+
+/* Panel 1: Introduction */
+
+.panel1 h2 {
+ font-size: 40px;
+ margin-top: 7px;
+ position: relative;
+ top:50%;
+ text-transform: uppercase;
+ width: 100%;
+ max-width: 1314px;
+ text-align: center;
+ display: inline-block;
+ font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+ font-weight: 200;
+}
+
+.panel1 h2 span:first-child {
+ color: #FFF;
+}
+
+.panel1 h2 span:last-child {
+ color: #000;
+}
+
+
+/* Panel 2: Just for You */
+
+.panel2 {
+ width: 100%;
+}
+.panel2 h2 {
+ font-size: 60px;
+ text-transform: uppercase;
+ text-align: center;
+ font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+ font-weight: 200;
+ margin: 35px 0;
+}
+
+.panel2 .panel-content {
+ width: 72%;
+ max-width: 800px;
+ margin-top: 250px;
+ text-align: center;
+ display: inline-block;
+}
+
+.panel2 .panel-content p {
+ font-size: 21px;
+ line-height: 26px;
+ background: #f7f7f7;
+ padding: 0 15px 15px;
+}
+
+.panel2 .arrowdown {
+ color: #000;
+}
+
+
+/* Panel 3: Recipes */
+
+.panel3 h2 {
+ font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+ color: #0f0f0f;
+ font-size: 60px;
+ font-weight: 200;
+ margin-bottom: 26px;
+ text-transform: uppercase;
+}
+
+.panel3 .panel-content  {
+ padding: 110px 55px;
+ width: 50%;
+}
+
+.panel3 .panel-content p, .panel3 .panel-content a {
+ font-size: 21px;
+ line-height: 26px;
+ color: #0f0f0f;
+}
+
+
+/* Panel 4: Nutritional Facts */
+
+.panel4 h2 {
+ font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+ color: #0f0f0f;
+ font-size: 60px;
+ line-height: 0.8em;
+ font-weight: 200;
+ margin: 60px 0 0;
+ text-transform: uppercase;
+}
+
+.panel4 .panel-content  {
+ padding: 110px 55px;
+}
+
+.panel4 .panel-content .column {
+}
+
+.panel4 .panel-content .column:first-child {
+ margin-top: 58px;
+ padding-bottom: 30px;
+}
+
+.panel4 .panel-content p {
+ font-size: 21px;
+ line-height: 26px;
+ color: #0f0f0f;
+}
+
+.panel4 ul {
+ width: 50%;
+ min-width: 200px;
+ display: inline-block;
+ float: left;
+ padding: 0 0 30px 0;
+ margin: 0;
+}
+
+.panel4 li {
+ list-style: none;
+ line-height: 40px;
+ padding-left: 40px;
+ font-size: 21px;
+}
+
+/* Nutritional Icons */
+
+.panel4 .item1 {
+ background: url('../img/icons/non-gmo.png') no-repeat left center;
+}
+
+.panel4 .item2 {
+ background: url('../img/icons/vegan.png') no-repeat left center;
+}
+
+.panel4 .item3 {
+ background: url('../img/icons/gf.png') no-repeat left center;
+}
+
+.panel4 .item4 {
+ background: url('../img/icons/egg-free.png') no-repeat left center;
+}
+
+.panel4 .item5 {
+ background: url('../img/icons/nothing-artificial.png') no-repeat left center;
+}
+
+.panel4 .item6 {
+ background: url('../img/icons/cholesterol-free.png') no-repeat left center;
+}
+
+.panel4 .item7 {
+ background: url('../img/icons/soy-free.png') no-repeat left center;
+}
+
+.panel4 .item8 {
+ background: url('../img/icons/dairy-free.png') no-repeat left center;
+}
+
+.panel4 .item9 {
+ background: url('../img/icons/lactose-free.png') no-repeat left center;
+}
+
+.panel4 .item10 {
+ background: url('../img/icons/kosher.png') no-repeat left center;
+}
+
+
+@media(min-width:428px){
+
+ /* Panel 1: Introduction */
+ .panel1 h2 {
+  margin-top: 17px;
+  font-size: 60px;
+ }
+ 
+}
+
+@media(max-width:767px){
+
+ .panel3 p {
+  text-align: left;
+ }
+ 
+ .arrowdown {
+  display: block;
+ }
+ 
+}
+
+@media(min-width:768px){
+
+/* Panel 1: Introduction */
+ .panel1 h2 {
+  margin-top: 47px;
+  margin-bottom: 0;
+ }
+
+ .panel1 h2 span:first-child {
+  float: left;
+  margin-left: 143px;
+  display: block;
+ }
+
+ .panel1 h2 span:last-child {
+  float: right;
+  margin-right: 143px;
+  display: block;
+ }
+ 
+ .panel2 .panel-content {
+ width: 80%;
+ max-width: 800px;
+ margin-top: 315px;
+}
+ 
+ 
+ /* Panel 4: Nutritional Facts */
+ .panel4 .panel-content .column {
+  float: left;
+  width: 50%;
+ }
+ 
+ .panel4 .panel-content .column:first-child {
+  float: right;
+ }
+ 
+}
+
+@media(min-width:992px){
+
+ /* Panel 1: Introduction */
+ .panel1 h2 {
+  font-size: 60px;
+ }
+ 
+}
+
+@media(min-width:1200px){
+
+ /* Panel 1: Introduction */
+ .panel1 h2 {
+  font-size: 80px;
+ }
+ 
+}

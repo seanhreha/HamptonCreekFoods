@@ -1,0 +1,1141 @@
+/* @license
+ * MyFonts Webfont Build ID 2476584, 2013-02-11T14:04:34-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ITC Franklin Gothic Book Compressed Italic by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/itc-franklin-gothic/book-compressed-italic/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted &#x00A9; 2004 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype GmbH, and may not be repro
+ * 
+ * Webfont: ITC Franklin Gothic Demi Extra Compressed by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/itc-franklin-gothic/demi-extra-compressed/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted &#x00A9; 2004 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype GmbH, and may not be repro
+ * 
+ * Webfont: ITC Franklin Gothic Book Compressed by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/itc-franklin-gothic/book-compressed/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted &#x00A9; 2004 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype GmbH, and may not be repro
+ * 
+ * Webfont: Henry Bold Italic by Florence
+ * URL: http://www.myfonts.com/fonts/marta-podkowinska/henry/bold-italic/
+ * 
+ * Webfont: Henry Italic by Florence
+ * URL: http://www.myfonts.com/fonts/marta-podkowinska/henry/italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2476584
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+  
+@font-face {font-family: 'FranklinGothicLTCom-BkCmIt';src: url('../webfonts/25CA28_0_0.eot');src: url('../webfonts/25CA28_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25CA28_0_0.woff') format('woff'),url('../webfonts/25CA28_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FranklinGothicLTCom-DmXCm';src: url('../webfonts/25CA28_1_0.eot');src: url('../webfonts/25CA28_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25CA28_1_0.woff') format('woff'),url('../webfonts/25CA28_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FranklinGothicLTCom-BkCm';src: url('../webfonts/25CA28_2_0.eot');src: url('../webfonts/25CA28_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25CA28_2_0.woff') format('woff'),url('../webfonts/25CA28_2_0.ttf') format('truetype');}
+ 
+
+/*
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+*/
+
+/* Body and globals
+-------------------------------------------------- */
+
+body, div, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #626466;
+}
+
+#header {
+	background-size: 100% 100%;
+	box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0px 4px 5px rgba(0,0,0,0.25);
+	margin: 0;
+	top: 0;
+	position: fixed;
+	background-color: #4b4c4b;
+	background-color: rgba(0, 0, 0, 0.65);
+	text-align: center;
+	z-index: 1000;
+	width: 100%;
+	height: 99px;
+}
+
+#header .logo {
+	position: absolute;
+	left: 50%;
+	cursor: pointer;
+	margin: 16px 0 0 -34px;
+	-webkit-filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.5));
+	filter: url(1px-shadow.svg#drop-shadow);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#000')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#000')";
+}
+
+#header > a {
+	font-family: FranklinGothicLTCom-BkCm, "Arial Narrow", sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: #fff;
+	float: right;	
+	display: block;
+	text-align: left;
+	margin: 40px 20px 0 0;
+	padding-right: 24px;
+	background: url(../img/home/contact-icon.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	-webkit-filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.5));
+	filter: url(1px-shadow.svg#drop-shadow);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#000')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#000')";
+}
+#header > a:hover {
+	text-decoration: none;
+}
+#header > ul {
+	float: left;	
+	list-style: none;
+	margin: 40px 0 0 -15px;
+	width: 315px;
+}
+#header > ul li {
+	float: left;	
+	margin: 0;
+}
+#youtube{
+width: 80px;
+float: left;
+margin-top: 38px;
+margin-left: 40px;
+}
+
+#ribbon {
+right:0;
+padding-right: 60px;
+padding-top: 99px;
+position: fixed;
+}
+.fb-share{
+	margin-top: -1px;
+}
+
+#beyondeggs{padding-top: 99px;}
+
+#wholefoods{top: 100%;
+left: 1.3%;
+position:absolute;}
+
+#presskit{
+width: 80px;
+float: left;
+margin-top: 38px;
+margin-left: 38px;
+}
+.container {
+	position: relative;
+	width: 100%;
+}
+
+.panel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: auto 100%;
+	font-family: FranklinGothicLTCom-BkCm, "Arial Narrow", sans-serif;
+	overflow: hidden;
+}
+
+.arrowdown {
+	background: url(../img/global/arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: center 72%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 160px;
+	height: 58px;
+	margin-left: -80px;
+	font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: #fff;
+	text-transform: uppercase;
+ 	text-rendering: optimizeLegibility;
+ 	-webkit-font-smoothing: antialiased;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	-moz-text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	-webkit-text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+.arrowdown:hover {
+	cursor: pointer;
+}
+
+#menu .text {
+	font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow",sans-serif; 
+	color:#535353; 
+	font-weight:600; 
+	text-transform:uppercase; 
+	text-align:right; 
+	margin-right:20px; 
+	padding:3px 6px 0; 
+	float:right; 
+	background:#FFFFFF; 
+	-moz-border-radius: 3px; border-radius: 3px; 
+	line-height:14px; 
+	font-size:16px; 
+	margin-top:1px;
+}
+	
+#menu {
+	position:fixed; 
+	width:auto; 
+	height:auto; 
+	z-index:950; 
+	top:54%;
+	right:14px; 
+	margin-top: -76px; 
+}
+
+#menu .indicator {
+	background:url(../img/global/menu-indicator.png); 
+	background-repeat:no-repeat; 
+	width:16px; 
+	height:16px; 
+	position:absolute; 
+	right:0; 
+}
+
+#menu .indicator.active { background-position:0 -18px; }
+#menu .indicator:hover { background-position:0 -18px; }
+
+#menu .wrapper_menu {
+	width:auto; 
+	height:16px; 
+	display:block; 
+	margin-top:3px;
+}
+
+#menu .text {
+	font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow",sans-serif; 	
+	color:#7f7f7f; 
+	font-weight:200; 
+	text-transform:uppercase; 
+	text-align:right; 
+	margin-right:20px; 
+	padding:1px 3px 0; 
+	float:right; 
+	background:#FFFFFF; 
+	-moz-border-radius: 2px; 
+	border-radius: 2px; 
+	line-height:16px; 
+	font-size:14px;
+	margin-top:1px;
+	letter-spacing: 1px;
+}
+
+
+/* Panel 1: Video
+-------------------------------------------------- */
+
+.panel1 {
+	background-color: #e16429;
+	background: url(../img/home/background-panel01.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+.panel1 #play-button {
+	position: absolute;
+	top: 51%;
+	left: 50%;
+	margin-top: -49px;
+	margin-left: -49px;
+	
+}
+
+.panel1 #welcome-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 722px;
+	height: 406px;
+	margin-top: -203px;
+	margin-left: -361px;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.50);
+	display: none;
+}
+
+.panel1 #mobile-video {
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	width: 80%;
+	height: 80%;
+	margin-top: -38%;
+	margin-left: -40%;
+	display: none;
+}
+.panel1 .rooster {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	text-align: right;
+	width: 180px;
+}
+
+.panel1 .black-overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.70);
+	display: none;
+}
+
+#mobile-welcome-video {
+	display: none;
+}
+
+/* Panel 2: Share;
+-------------------------------------------------- */
+
+.panel2 {
+	background-color: #e16429;
+	background: url(../img/home/background-panel02.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+.panel2 #share {
+    background-color: rgba(0, 0, 0, 0.65);
+    left: 48.5%;
+    margin-left: -174px;
+    position: absolute;
+    top: 29%;
+    width: 325px;
+	padding: 40px 30px;
+}
+
+.panel2 #share-text{
+	color: #FFFFFF;
+    line-height: 30px;
+    padding-bottom: 15px;
+	font-size: 23px;
+
+}
+
+
+/* Panel 3: Orange with egg logo
+-------------------------------------------------- */
+
+.panel3 {
+	background-color: #c65001;
+	background-image: url(../img/home/background-panel03.png);
+	background-repeat: repeat-x;
+	background-size: auto;
+	box-shadow: inset 0px 5px 20px rgba(0,0,0,0.45);
+	-moz-box-shadow:inset 0px 5px 20px rgba(0,0,0,0.45);
+	-webkit-box-shadow:inset 0px 5px 20px rgba(0,0,0,0.45);
+}
+
+.panel3 .left {
+	position: absolute;
+	text-align: right;
+	right: 69%;
+	top: 50%;
+	width: 263px;
+	margin-top: -136px;
+}
+
+.panel3 .right {
+	position: absolute;
+	left: 69%;
+	top: 43%;
+	width: 275px;
+	margin-top: -80px;
+}
+
+.panel3 h2 {
+	font-family: FranklinGothicLTCom-BkCm, "Arial Narrow", sans-serif;
+	color: #ffea00;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 28px;
+	margin-bottom: 16px;
+}
+
+.panel3 .right h2 {
+	margin-top: 3px;
+}
+
+.panel3 p {
+	font-size: 21px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.panel3 .logo {
+	position: absolute;
+	width: 202px;
+	height: 275px;
+	margin-left: -101px;
+	margin-top:-100px;
+	background: url(../img/home/logo-large.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	left: 50%;
+	top: 50%;
+}
+
+.line {
+	width: 1px;
+	position: absolute;
+	left: 49.9%;
+	top: 120px;
+	height: 1%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.line.lower {
+	top: 75%;
+	height: 20%;
+}
+
+
+
+/* Panel 4: Girl and 4 text blocks
+-------------------------------------------------- */
+
+.panel4 {
+	background-color: #5c7f48;
+	background: url(../img/home/background-panel04.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.panel4 .left {
+	position: absolute;
+	text-align: right;
+	right: 60%;
+	bottom: 5%;
+	width: 36%;
+	max-width: 500px;
+}
+
+.panel4 .right {
+	position: absolute;
+	left: 60%;
+	bottom: 5%;
+	width: 36%;
+	max-width: 500px;
+}
+
+.panel4 .left h2, .panel4 .left p {
+	padding-right: 130px;
+}
+
+.panel4 .right h2, .panel4 .right p {
+	padding-left: 130px;
+}
+
+.panel4 .left .top p {
+	background: url(../img/home/flavor-icon.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	min-height: 100px;
+	padding-right: 130px;
+}
+
+.panel4 .left .bottom p {
+	background: url(../img/home/heart-icon.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	min-height: 100px;
+	padding-right: 130px;
+}
+
+.panel4 .right .top p {
+	background: url(../img/home/icon-foot.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	min-height: 100px;
+	padding-left: 130px;
+}
+
+.panel4 .right .bottom p {
+	background: url(../img/home/icon-wallet.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	min-height: 100px;
+	padding-left: 130px;
+}
+
+.panel4 .bottom {
+	margin-top: 50px;
+}
+
+.panel4 h2 {
+	font-family: FranklinGothicLTCom-DmXCm, "Arial Narrow", sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 200;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+.panel4 p {
+	color: #fff;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: 200;
+	margin-bottom: 16px;
+
+}
+
+.panel4 .extraleaves {
+	background: url(../img/home/extra-leaves.png);
+	background-repeat:no-repeat;
+	width: 576px;
+	height: 463px;
+	position: absolute;
+	left: 50%;
+	margin-left: -288px; 
+}
+
+
+.panel4 .extraleaves2 {
+	background: url(../img/home/extra-leaves-2.png);
+	background-repeat:no-repeat;
+	width: 583px;
+	height: 469px;
+	position: absolute;
+	left: 50%;
+	margin-left: -292px;
+}
+
+
+.panel4 .arrowdown {
+	color: #000;
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+	position: relative;
+	width: 100%;
+	font-family: FranklinGothicLTCom-BkCm, "Arial Narrow", sans-serif;
+	overflow: hidden;
+	background-image: url(../img/global/footer-background.jpg);
+	background-size: auto;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	box-shadow: inset 0px 8px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 8px 10px rgba(0,0,0,0.4);
+	-webkit-box-shadow: inset 0px 8px 10px rgba(0,0,0,0.4);
+	padding-top: 54px;
+}
+
+.footer h3 {
+	font-weight: 200;
+	font-size: 24px;
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #272727;
+	display: none;
+}
+
+.footer .press {
+	width: 95%;
+	max-width: 1390px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	padding: 0;
+}
+
+.footer .press ul {
+	display: table;
+	width: 100%;
+	max-width: 1390px;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.footer .press li {
+	display: table-cell;
+	width: 1%; 
+	text-align: center;
+	padding: 0 20px;
+}
+/*
+.footer .press li img {
+	width: 100%;
+}
+*/
+.footer .press li:first-child {
+	padding-left: none;
+}
+
+.footer .press li:last-child {
+	padding-right: none;
+}
+
+.footer .copyright {
+	text-align: center;
+	width: 95%;
+	max-width: 1390px;
+	padding-top: 14px;
+	margin: 0 auto 14px;
+	border-top: 1px solid #2c2c2d;
+}
+
+.footer .copyright ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+.footer .copyright ul li {
+	display: inline-block;
+	border-right: 1px solid #2c2c2d;
+	padding: 0 10px;
+}
+
+.footer .copyright a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer .copyright a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.footer .copyright ul li:first-child {
+	padding-left: 0;
+}
+
+.footer .copyright ul li:last-child {
+	border-right: none;
+}
+
+
+/* Landscape  tablet and down */
+@media (max-width: 1024px) {
+	.panel3 .logo {
+		width: 175px;
+		height: 225px;
+		margin-left: -87px;
+		margin-top:-90px;
+	}
+}
+
+
+/* normal ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+{
+	#menu { 
+		display: none;
+	}
+	.panel1 {
+		 background: url(../img/home/background-panel01.jpg) no-repeat center top;
+
+	}
+	.panel2 {
+		 background: url(../img/home/background-panel02.jpg) no-repeat center top;
+	
+	}
+	.panel2 #share{
+		/*left: 55%;*/
+		left: 48%;
+		top: 25%;
+		}
+
+
+	.panel3 .left {
+		width: 240px;
+	}
+	
+	.panel3 .right {
+		top: 49%;
+		width: 245px;
+	}
+	
+	.panel4 h2 {
+		font-size: 30px;
+	}
+	
+	.panel4 .left h2, .panel4 .left p {
+		padding-right: 94px;
+	}
+	
+	.panel4 .right h2, .panel4 .right p {
+		padding-left: 94px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	#menu { 
+		display: none;
+	}
+	
+	#header>ul {
+		width: 230px;
+		margin-top: 28px;
+	}
+	#header>ul li {
+		display: block;
+		float: right;
+		text-align: right;
+	}
+	#header>ul li:last-child {
+		padding-right: 13px;
+	}
+	
+	.panel3 .left {
+		right: 75%;
+		width: 220px;
+	}
+	
+	.panel3 .right {
+		left: 75%;
+		top: 51%;
+		width: 225px;
+	}
+	
+	.panel3 .logo {
+		width: 125px;
+		height: 225px;
+		margin-left: -62px;
+		margin-top:-90px;
+	}
+}
+
+
+@media only screen 
+and (max-width : 568px) { /* iphone/mobile STYLES GO HERE */
+	#menu { 
+		display: none;
+	}
+	#youtube{
+		display:none;
+}
+	#header {
+		position: relative;
+		height: 60px;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+	#header .logo {
+		margin: 5px 0 2px -27px;
+		-webkit-filter: none;
+		filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+	#header #beyondeggs{
+		display:none;
+		}
+	#wholefoods {
+		position: absolute;
+		top: 43px;
+		padding: 0;
+		margin-left: -20px;
+	}
+
+	#wholefoods img {
+		width: 50%;
+	}
+	#header > img {
+		height: 50px;
+		width: auto;
+	}
+	#header>ul, #header>a  {
+		display: none;
+	}
+	
+	
+	.arrowdown {
+ 		display: none;
+	}
+	.rooster{display: none;}
+	#wholefoods{display:none;}
+	
+	/* First panel (video) */
+	
+	.panel1 {
+		 background: url(../img/home/background-panel01-mobile.jpg) no-repeat center top fixed;
+		-webkit-background-size:  100% auto;
+		-moz-background-size:  100% auto;
+		-o-background-size:  100% auto;
+		background-size:  100% auto;
+	}
+
+	.panel1 #welcome-video {
+		display: none;
+	}
+
+	.panel1 #mobile-video {
+		top: 280px;
+		display: block;
+	}
+
+
+	.panel1 #play-button {
+		display: none;
+	}
+
+	.panel1 .rooster img {
+		width: 70%;
+		height: 70%;
+
+	}
+
+	#mobile-welcome-video {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 999999;
+		background: red;
+	}
+
+
+	/* Second panel (signup */
+	
+	.panel2 {
+		 background: url(../img/home/background-panel02-mobile.jpg) no-repeat center top;
+		-webkit-background-size:  100% auto;
+		-moz-background-size:  100% auto;
+		-o-background-size:  100% auto;
+		background-size:  100% auto;
+	}
+
+		
+	.panel2 #share{
+		width: 80%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		margin: 0;
+		padding: 10%;
+
+	}
+	.panel2 #share-text{
+		margin-top: 2em;
+		width: 100%;
+		font-size:22px;
+	}
+	
+	
+	/* Third panel (orange) */
+	
+	.panel3 h2 {
+		font-size: 21px;
+		line-height: 21px;
+		width: 62%;
+		max-width: 177px;
+		text-align: center;
+		margin: 0 auto 2px;
+	}
+	
+	.panel3 .right h2
+	{
+		margin-top: 7px;
+	}
+	
+	.panel3 p {
+		font-size: 13px;
+		line-height: 17px;
+		width: 60%;
+		max-width: 177px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.panel3 .logo,
+	.panel3 .line {
+		display: none;
+	}
+	
+	.panel3 .left, 
+	.panel3 .right {
+		position: relative;
+		right: inherit;
+		left: inherit;
+		width: 85%;
+		padding: 0;
+		top: 28px;
+		margin: 0px auto 30px;
+		text-align: left;
+	}
+	
+	.panel3 .right {
+		top: 24px;
+	}
+	
+	.panel3 .left img, 
+	.panel3 .right img {
+		display: block;
+		margin: 0px auto;
+	}
+	
+	.panel3 .left img {
+		width: 35%;
+		margin-bottom: 14px;
+		margin-left: 30.5%;
+	}
+	
+	.panel3 .right img {
+		width: 35%;
+	}
+
+	
+	/* Fourth panel: girl + leaves */
+	
+	.panel4 {
+		background: url(../img/home/background-panel04-mobile.jpg);
+		-webkit-background-size:  100% auto;
+		-moz-background-size:  100% auto;
+		-o-background-size:  100% auto;
+		background-size:  100% auto;
+	}
+	
+	.panel4 .left,
+	.panel4 .right {
+		position: inherit;
+		text-align: inherit;
+		left: inherit;
+		right: inherit;
+		bottom: inherit;
+		width: inherit;
+		max-width: inherit;
+		padding: 0 30px;
+	}
+	
+	.panel4 .left {
+		padding-top: 34px;
+	}
+	.panel4 .left h2, 
+	.panel4 .left p {
+		padding-right: 0;
+	}
+	
+	.panel4 .left h2,
+	.panel4 .left p,
+	.panel4 .right h2,
+	.panel4 .right p {
+		padding-left: 70px;
+	}
+	
+	.panel4 .left .top,
+	.panel4 .left .bottom,
+	.panel4 .right .top,
+	.panel4 .right .bottom {
+		margin-top: 0;
+	}
+	
+	.panel4 .left .bottom{
+		margin-bottom: 33px;
+	}
+	
+	.panel4 .left .top p,
+	.panel4 .left .bottom p,
+	.panel4 .right .top p,
+	.panel4 .right .bottom p {
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: auto 44px;
+		width: 53%;
+		min-height: 52px;
+	}
+
+	.panel4 .right .top p,
+	.panel4 .right .bottom p {
+		padding-left: 70px;
+	}
+	
+	.panel4 h2 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	
+	.panel4 p {
+		font-size: 14px;
+		line-height: 15px;
+	}
+	
+	.panel4 .extraleaves {
+		display: none;
+	}
+	
+	.panel4 .extraleaves2 {
+		display: none;
+	}
+	
+	/* footer */
+	
+	
+	.footer {
+		padding-top: 26px;
+	}	
+
+	.footer h3 {
+		display: block;
+		color: #fff;
+		text-shadow: 0px 1px 3px rgba(0,0,0,0.75);
+		font-size: 16px;
+	}
+
+	.footer a {
+		display: inline;
+	}
+	
+	.footer .press {
+		margin-bottom: 0;
+		text-align: center;
+	}
+	
+	.footer .press ul {
+		display: auto;
+		width: 100%;
+		max-width: 1390px;
+		padding: 0;
+		list-style: none;
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	
+	.footer .press li {
+		display: inline-block;
+		width: 23%;
+		text-align: center;
+		margin-bottom: 30px;
+		padding: 0 15px;
+	}
+	
+	/* two bottom footer elements get wider treatment 
+	
+		created in js/hamptoncreek.js */
+	.footer #widepress li {
+		width: 40%;
+	}
+	
+	.footer .copyright {
+		width: 85%;
+		max-width: 1390px;
+		margin: 10px auto 16px;
+		border-top: 1px solid #2c2c2d;
+		font-size: 14px;
+	}
+	
+	.footer .left {
+		width: 100%;
+		margin: 14px 0 0 0;
+	}
+	
+	.footer .right {
+		width: 100%;
+		float: right;
+		text-align: center;
+		margin: 14px 0 0 0;
+	}
+	
+	.footer .copyright ul {
+		list-style: none;
+		margin: 0;
+		padding: 10px;
+		line-height: 1.5em;
+		text-align: center;
+	}
+	
+	.footer .copyright ul li {
+		display: inline-block;
+		border-right: none;
+		padding: 0 10px;
+	}
+	
+	.footer .copyright a {
+		text-decoration: none;
+		padding: 4px 0;
+		color: inherit;
+		display: inline-block;
+	}
+	
+}
+
+@media (-webkit-min-device-pixel-ratio: 2)
+and (orientation : landscape)
+and (max-width : 568px)  {
+
+	.panel1 {
+		 background: url(../img/home/background-panel01-mobile@2x.jpg) no-repeat center top;
+	 }
+	.panel2 {
+		 background: url(../img/home/background-panel02-mobile@2x.jpg) no-repeat center top;
+	 }
+	.panel4 {
+		 background-position: right bottom;
+	 }
+}
+
