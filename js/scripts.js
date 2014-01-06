@@ -171,7 +171,7 @@ var App = function(){
 		this.initJumpMenu();
 		this.initDownArrows();
 		
-		$('#header .logo').click(function() {			
+		$('#header #logo a').click(function() {			
 			$('html, body').animate({
 					scrollTop: 0
 			 }, 1000, "easeOutQuad");
